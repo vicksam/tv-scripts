@@ -28,4 +28,4 @@ I am using scripts from [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinf
 
 #### Size
 
-It contains 109,233 lines of text and about 50,000 unique words.
+It contains 109,233 lines of text and about 20,000 unique words.
