@@ -45,6 +45,6 @@ def save_model(filename, decoder):
     save_filename = os.path.splitext(os.path.basename(filename))[0] + '.pt'
     torch.save(decoder, save_filename)
 
-def load_model(filename):
+def load_model(filename, map_location = None):
     save_filename = os.path.splitext(os.path.basename(filename))[0] + '.pt'
-    return torch.load(save_filename)
+    return torch.load(save_filename, map_location = map_location)
