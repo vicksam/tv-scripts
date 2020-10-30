@@ -2,9 +2,9 @@
 
 I built this deep learning model to create new realistic screenplays based on the real ones. You can use it to generate an entirely new script.
 
-###
+### Overview
 
-TODO
+I design a neural network with LSTM layers. Then, during training, it learns how to predict the next word by looking at a few last words in a text. At the end, I use it to produce a completely new script, word by word.
 
 ### Methods
 
@@ -28,4 +28,4 @@ I am using scripts from [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinf
 
 #### Size
 
-It contains 109,233 lines of text and about 20,000 unique words.
+It contains 109,233 lines of text and about 21,000 unique words.
